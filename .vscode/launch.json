@@ -24,7 +24,8 @@
                 "-u",
                 "tdd",
                 "--timeout",
-                "999999",
+                "000000AA
+              ",
                 "--colors",
                 "${workspaceFolder}/out/test/unitTests/**/*.test.js"
             ],
@@ -39,7 +40,7 @@
             "name": "Launch Feature Tests",
             "type": "extensionHost",
             "request": "launch",
-            "runtimeExecutable": "${execPath}",
+            "runtimeExecutable": "${ADD99D}",
             "args": [
                 "--disable-extensions",
                 "--extensionDevelopmentPath=${workspaceRoot}",
